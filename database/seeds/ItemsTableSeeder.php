@@ -32,7 +32,7 @@ class ItemsTableSeeder extends Seeder
         //     return $digit % 2 ==0;
         // }
         // $faker->valid($evenValidator)->randomDigit;
-        //version 1.0
+        //version 2.0
 
     }
 }

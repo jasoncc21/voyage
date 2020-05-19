@@ -13,7 +13,15 @@ class ItemController extends Controller
      */
     public function index()
     {
-        //
+        $item = new Item([
+            'title' => '手機2台',
+            'price' => '15000',
+            'pic' => 'https://member.ithome.com.tw/avatars/88232?s=ithelp',
+            'enabled' => 1,
+            'size' => 'L',
+            'email' => 'admin222@demo.com',
+        ]);
+        $item->save();
     }
 
     /**
